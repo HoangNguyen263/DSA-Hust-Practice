@@ -1,3 +1,18 @@
+/*
+Problem: IT3011_C1B9: Đảo ngược thứ tự của các từ trong một chuỗi
+Description
+Viết chương trình đảo ngược thứ tự của các từ trong một chuỗi. 
+Ví dụ, đảo chuỗi ban đầu nghien cuu khoa hoc thành hoc khoa cuu nghien 
+Input:
+Dòng 1: Chứa chuỗi cần đảo ngược các từ.
+Ouput:
+Chuỗi đảo ngược thứ tự của các từ trong chuỗi ban đầu.
+Ví dụ:
+Input
+dai hoc kinh te quoc dan
+Output
+dan quoc te kinh hoc dai
+*/
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
