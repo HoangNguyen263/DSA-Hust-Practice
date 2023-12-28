@@ -51,8 +51,13 @@ int main(){
     }
 
     for (int i = 0; i < n; i++){
-        if (temp[i] != a[i]) printf("0");
+        if (temp[i] != a[i]) {
+            printf("0");
+            break;
+        }
+        if (i == n-1 && temp[i] == a[i]){
+            printf("1");
+        }
     }
-    printf("1");
     
 }
